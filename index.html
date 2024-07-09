@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<div class="caja">
+    <div class="principal">
+        <h1>Pesos CLP</h1>
+        <input type="number" id="pesos">
+        <h3>Moneda a Convertir</h3>
+        <select name="" id="moneda">
+            <option value="dolar">Dolar (USD) </option>
+            <option value="euro">Euro (EUR)</option>
+        </select>
+        <div class="boton">
+            <button id="button">Buscar</button>
+        </div>
+        <div id="resultado">
+
+        </div>
+    </div>
+</div>
+<div id="graficos">
+    <h1>Historial Últimos 10 días del Valor de la moneda</h1>
+        <div class="grafica"> 
+            <canvas id="myChart"></canvas> 
+        </div>
+</div>
+
+
+
+
+
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
